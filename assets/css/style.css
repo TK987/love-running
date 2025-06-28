@@ -107,6 +107,7 @@ main {
     position: relative; 
 }
 
+
 #cover-text {
     /*Final rgba value sets background opcaity to semi-transparency*/ 
     background-color: rgba(241, 109, 107, .7);
@@ -147,9 +148,26 @@ main {
     margin-left: 20px;
 }
 
-hr {
+#benefits hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
+}
+
+#circle-cover-bg {
+     background: urL(../images/reasons-image.webp) no-repeat top center / cover;
+     width: 90vw;
+     height: 90vw;
+     margin-bottom: 20px;
+     /* make square image circle */
+     border-radius: 50%;
+     max-width: 300px;
+     max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /* footer */
 footer {
